@@ -5,6 +5,8 @@ const debug = require('debug-logfmt')('tesla-vin')
 const digit = (input, start, end) => (end ? input.slice(start - 1, end) : input[start - 1])
 
 /**
+ * LRW3E7FSXPC997370
+ * LRYYGCFJ8SC961895
  * - https://service.tesla.com/docs/ModelS/ServiceManual/en-us/GUID-BED77626-E575-4DB7-8C1F-CFA600EAA082.html
  * - https://service.tesla.com/docs/ModelS/ServiceManual/Palladium/en-us/GUID-C79EB66B-D6DB-4439-BFC4-6AB53FB19E2C.html
  * - https://service.tesla.com/docs/ModelX/ServiceManual/en-us/GUID-B81908BE-D0D7-4E89-BD3A-FC3CA402C54F.html

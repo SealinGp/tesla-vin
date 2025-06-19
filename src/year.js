@@ -28,6 +28,8 @@ module.exports = letter => {
       return 2023
     case 'R':
       return 2024
+    case 'S':
+        return 2025
     default:
       return null
   }
