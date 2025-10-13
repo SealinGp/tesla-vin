@@ -7,7 +7,7 @@ module.exports = letter => {
     case 'B':
       return 'Tesla Berlin, Germany'
     case 'C':
-      return 'Tesla Shangai, China'
+      return 'Tesla Shanghai, China'
     case 'F':
       return 'Tesla Fremont, California (USA)'
     default:
